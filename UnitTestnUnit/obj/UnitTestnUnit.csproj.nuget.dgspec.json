@@ -60,7 +60,7 @@
             },
             "NUnit": {
               "target": "Package",
-              "version": "[4.3.2, )"
+              "version": "[3.14.0, )"
             },
             "NUnit.Analyzers": {
               "target": "Package",

@@ -71,7 +71,7 @@ namespace UnitTestMSTest{
             Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
 
-         [TestCategory("OperacionCalculadora")]
+        [TestCategory("OperacionCalculadora")]
         [Priority(3)]
         [Description("División de dos números")]
         [Owner("Javier Cousiño")]
@@ -86,7 +86,7 @@ namespace UnitTestMSTest{
             Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
 
-          [TestCategory("OperacionCalculadora")]
+        [TestCategory("OperacionCalculadora")]
         [Priority(3)]
         [Description("División de dos números")]
         [Owner("Javier Cousiño")]
@@ -100,8 +100,6 @@ namespace UnitTestMSTest{
             double resultadoObtenido = calculadora.Dividir(arg1, arg2);
 
             Assert.AreEqual(resultadoEsperado, resultadoObtenido);
-        }
-
-      
+        }      
     }
 }

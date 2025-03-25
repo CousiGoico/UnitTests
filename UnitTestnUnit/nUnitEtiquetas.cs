@@ -39,7 +39,7 @@ namespace UnitTestnUnit {
 
             int resultadoObtenido = calculadora.Sumar(arg1, arg2);
 
-            Assert.Equals(resultadoEsperado, resultadoObtenido);
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
 
         [Test]
@@ -55,7 +55,7 @@ namespace UnitTestnUnit {
 
             int resultadoObtenido = calculadora.Restar(arg1, arg2);
 
-            Assert.Equals(resultadoEsperado, resultadoObtenido);
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
 
         [Test]
@@ -71,7 +71,7 @@ namespace UnitTestnUnit {
 
             int resultadoObtenido = calculadora.Multiplicar(arg1, arg2);
 
-            Assert.Equals(resultadoEsperado, resultadoObtenido);
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
 
         [Test]
@@ -87,7 +87,7 @@ namespace UnitTestnUnit {
 
             double resultadoObtenido = calculadora.Dividir(arg1, arg2);
 
-            Assert.Equals(resultadoEsperado, resultadoObtenido);
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
 
          [Test]
@@ -104,7 +104,7 @@ namespace UnitTestnUnit {
 
             double resultadoObtenido = calculadora.Dividir(arg1, arg2);
 
-            Assert.Equals(resultadoEsperado, resultadoObtenido);
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
 
                  [Test]
@@ -114,26 +114,30 @@ namespace UnitTestnUnit {
         [Property("Prioridad", "Alta")]
         [Timeout(1000)]
         public void Dividir3_DosNumerosEnterosB_ResultadoOKB(){
-            int arg1 = 6;
+            int arg1 = 16;
             int arg2 = 8;
             double resultadoEsperado = arg1 / arg2;
             Calculadora calculadora = new Calculadora();
 
             double resultadoObtenido = calculadora.Dividir(arg1, arg2);
 
-            Assert.Equals(resultadoEsperado, resultadoObtenido);
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
 
-        [Test]
-        [Author("Javier Cousiño")]
-        [Description("Dividir dos números enteros y el resultado es OK")]
-        [Category("OperacionMatematica")]
-        [Property("Prioridad", "Alta")]
-        [Retry(3)] // Si el test falla, se reintentará hasta 3 veces antes de fallar definitivamente
-        public void Prueba_Con_Retry()
-        {
-            int numero = new Random().Next(1, 5); // Genera un número entre 1 y 4
-            //Assert.Pass(numero == 3);
-        }
+         private static Random random = new Random();
+
+        // [Test]
+        // [Author("Javier Cousiño")]
+        // [Description("Dividir dos números enteros y el resultado es OK")]
+        // [Category("OperacionMatematica")]
+        // [Property("Prioridad", "Alta")]
+        // [Retry(3)] // Si el test falla, se reintentará hasta 3 veces antes de fallar definitivamente
+        // public void Prueba_Con_Retry()
+        // {
+        //     int numero = random.Next(1, 5); // Genera un número entre 1 y 4
+        //     Console.WriteLine($"Número generado: {numero}");
+        //     Assert.AreEqual(3, numero);
+        // }
+
     }
 }
