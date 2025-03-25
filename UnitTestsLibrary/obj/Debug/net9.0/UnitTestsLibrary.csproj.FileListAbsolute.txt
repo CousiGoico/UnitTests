@@ -5,8 +5,8 @@ N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.GeneratedMSBuild
 N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.AssemblyInfoInputs.cache
 N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.AssemblyInfo.cs
 N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.csproj.CoreCompileInputs.cache
+N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.sourcelink.json
 N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.dll
 N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\refint\UnitTestsLibrary.dll
 N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.pdb
 N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\ref\UnitTestsLibrary.dll
-N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.sourcelink.json

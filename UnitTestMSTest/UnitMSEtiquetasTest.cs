@@ -1,4 +1,3 @@
-using System.Runtime.InteropServices;
 using UnitTestsLibrary;
 
 namespace UnitTestMSTest{
@@ -72,5 +71,37 @@ namespace UnitTestMSTest{
             Assert.AreEqual(resultadoEsperado, resultadoObtenido);
         }
 
+         [TestCategory("OperacionCalculadora")]
+        [Priority(3)]
+        [Description("División de dos números")]
+        [Owner("Javier Cousiño")]
+        [TestMethod]
+        [Ignore("No se ejecuta porque no es necesario")]
+        public void DividirB(){
+            double resultadoEsperado = arg1 / arg2;
+            Calculadora calculadora = new Calculadora();
+
+            double resultadoObtenido = calculadora.Dividir(arg1, arg2);
+
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
+        }
+
+          [TestCategory("OperacionCalculadora")]
+        [Priority(3)]
+        [Description("División de dos números")]
+        [Owner("Javier Cousiño")]
+        [TestMethod]
+        [Timeout(5000)]
+        public void DividirC(){
+            double resultadoEsperado = arg1 / arg2;
+            Calculadora calculadora = new Calculadora();
+            Thread.Sleep(2000);
+
+            double resultadoObtenido = calculadora.Dividir(arg1, arg2);
+
+            Assert.AreEqual(resultadoEsperado, resultadoObtenido);
+        }
+
+      
     }
 }

@@ -1,3 +1,4 @@
+N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\.msCoverageSourceRootsMapping_UnitTestMSTest
 N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\testhost.dll
 N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\testhost.exe
 N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
@@ -154,6 +155,8 @@ N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\tr\Microsoft.VisualStudio.TestPlatf
 N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\UnitTestsLibrary.dll
+N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\UnitTestsLibrary.pdb
 N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 N:\UnitTests\UnitTestMSTest\obj\Debug\net9.0\UnitTestMSTest.csproj.AssemblyReference.cache
 N:\UnitTests\UnitTestMSTest\obj\Debug\net9.0\UnitTestMSTest.GeneratedMSBuildEditorConfig.editorconfig
@@ -167,6 +170,3 @@ N:\UnitTests\UnitTestMSTest\obj\Debug\net9.0\refint\UnitTestMSTest.dll
 N:\UnitTests\UnitTestMSTest\obj\Debug\net9.0\UnitTestMSTest.pdb
 N:\UnitTests\UnitTestMSTest\obj\Debug\net9.0\UnitTestMSTest.genruntimeconfig.cache
 N:\UnitTests\UnitTestMSTest\obj\Debug\net9.0\ref\UnitTestMSTest.dll
-N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\.msCoverageSourceRootsMapping_UnitTestMSTest
-N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\UnitTestsLibrary.dll
-N:\UnitTests\UnitTestMSTest\bin\Debug\net9.0\UnitTestsLibrary.pdb
