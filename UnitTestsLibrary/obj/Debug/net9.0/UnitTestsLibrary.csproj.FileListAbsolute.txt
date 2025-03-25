@@ -9,3 +9,4 @@ N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.dll
 N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\refint\UnitTestsLibrary.dll
 N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.pdb
 N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\ref\UnitTestsLibrary.dll
+N:\UnitTests\UnitTestsLibrary\obj\Debug\net9.0\UnitTestsLibrary.sourcelink.json

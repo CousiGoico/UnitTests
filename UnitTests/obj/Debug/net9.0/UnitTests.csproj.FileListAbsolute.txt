@@ -105,3 +105,4 @@ N:\UnitTests\UnitTests\bin\Debug\net9.0\Moq.dll
 N:\UnitTests\UnitTests\bin\Debug\net9.0\System.Diagnostics.EventLog.dll
 N:\UnitTests\UnitTests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
 N:\UnitTests\UnitTests\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+N:\UnitTests\UnitTests\obj\Debug\net9.0\UnitTests.sourcelink.json

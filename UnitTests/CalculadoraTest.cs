@@ -25,7 +25,7 @@ namespace UnitTests
             Assert.Equal(num1 + num2, resultado);
         }
 
-                [Fact]
+        [Fact]
         public void TestRestar()
         {
             int num1 = 2;
