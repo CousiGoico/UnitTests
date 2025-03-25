@@ -286,7 +286,11 @@ Técnica de programación que permite que un objeto o función reciba sus depend
 
 ## GitHub Copilot testing prompts
 
-### Definición y registro de cuenta en GitHub
+### Definición y registro de cuenta en GiHtub
 
 ### Definición de control de versiones GIT, comparación entre GitHub y Azure DevOps
+
+### Visualización de GitHub Copilot en VS Code y VS.
+
+### Explicación de comandos en GitHub copilot
 
