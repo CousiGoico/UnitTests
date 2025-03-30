@@ -21,11 +21,8 @@ jobs:
         with:
           dotnet-version: '8.x'
 
-      - name: Restore dependencies
-        run: dotnet restore ./src/sales-management-api.sln
-
       - name: Build the solution
-        run: dotnet build ./src/sales-management-api.sln --configuration Release --no-restore
+        run: dotnet build ./UnitTests.sln --configuration Release --no-restore
 
       - name: Run unit tests with report
         run: dotnet test ./UnitTestMSTest/TestUntariosMSTest.csproj --configuration Release --no-build --logger "trx;LogFileName=TestResultsMSTest.trx"
