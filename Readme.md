@@ -11,6 +11,37 @@
 
         dotnet sln add {nameProjectLibrary}
 
+### Nueva clase Calculadora
+
+                
+                namespace UnitTestsLibrary;
+                
+                public class Calculadora {
+                
+                   public int Sumar(int num1, int num2) {
+                        return num1 + num2;                   
+                   }
+                    public int Restar(int num1, int num2) {
+                            return num1 - num2;
+                    }
+                    public int Multiplicar(int num1, int num2) {
+                            return num1 * num2;
+                    }
+
+                    public int Dividir(int num1, int num2) {
+                            if (num2 == 0)
+                                    throw new DivideByZeroException("No se puede dividir por cero");
+                            return num1 / num2;
+                    }
+                
+                    public double Dividir(int a, int b)
+                    {
+                        if (b == 0)
+                            throw new DivideByZeroException("No se puede dividir por cero");
+                        return (double)a / b;
+                    }
+                }
+
 ## Nuevo proyecto de tipo pruebas unitarios con MSTest (UnitTestMSTest)
 
         dotnet new mstest --name {UnitTestMSTest}
@@ -19,16 +50,9 @@
 
 ## Añado referencia de calculadora en proyecto de pruebas
 
-        cd {nameProjectLibrary}
+        cd {UnitTestMSTest}
 
         dotnet add reference ..\{nameProjectLibrary}
-
-## Añado la clase calculadora a la libreria de clases
-
-En el dividir establecer una verificación de división por 0.
-
-        if (b == 0)
-            throw new DivideByZeroException("No se puede dividir por cero");
 
 ## MSTest
 
