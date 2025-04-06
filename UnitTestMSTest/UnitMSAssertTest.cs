@@ -61,5 +61,13 @@ namespace UnitTestMSTest{
             Assert.IsNotNull(resultadoObtenido);
         }
 
+        [TestMethod]
+        public void DividirZeroTest() {
+
+            Calculadora calculadora = new();
+
+            Assert.ThrowsException<DivideByZeroException>(() => calculadora.Dividir(10, 0));
+        }
+
     }
 }
